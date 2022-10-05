@@ -13,3 +13,11 @@ for (j = 0; j <= 10; j++) {
   }
   console.log(j);
 }
+// continue contoh 2
+for (k = 4; k < 8; k++) {
+  if (k == 6) {
+    continue;
+  }
+  sum += k;
+}
+console.log(k);
