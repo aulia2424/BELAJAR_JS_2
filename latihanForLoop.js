@@ -74,22 +74,17 @@ console.log(diamond);
 console.log("\n");
 
 console.log("i love u pattern");
-//Square Star Pattern
-let n = 5; // row or column count
-// defining an empty string
-let string = "";
-
-for (let m = 0; m < n; m++) {
-  // external loop
-  for (let o = 0; o < n; o++) {
-    // internal loop
-    string += "*";
-  }
-  // newline after each row
-  string += "\n";
+// Right Triangle Pattern + Downward Triangle Star Pattern
+const bintangDua = "*";
+const spasi = " ";
+for (var baris = 5, bbintang = 1; baris > 0; baris--, bbintang++) {
+  console.log(spasi.repeat(baris - 1) + bintangDua.repeat(bbintang));
 }
-// printing the string
-console.log(string);
+for (var baris = 0, bbintang = 5; bbintang > 0; baris++, bbintang--) {
+  console.log(bintangDua.repeat(bbintang) + spasi.repeat(baris));
+}
+
+console.log("\n");
 
 // let a = 5;
 // let star = "";
