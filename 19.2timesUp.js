@@ -11,3 +11,10 @@ while (x <= 5) {
   console.log(x);
   x = x + 1;
 }
+
+// lessons 19.2
+var detik = 4;
+while (detik >= 0) {
+  console.log(detik);
+  detik--;
+}

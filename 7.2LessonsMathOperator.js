@@ -24,3 +24,11 @@ console.log(myVariable);
 // increment++ Operator kenaikan meningkatkan nilai numerik operan dengan 1. Ketika ditempatkan sebelum operan, itu akan mengembalikan nilai yang bertambah. Ketika ditempatkan setelahnya, itu akan mengembalikan nilai asli dan kemudian menambah operan.
 
 // Decrement -- Operator penurunan menurunkan nilai numerik operan dengan 1. Ketika ditempatkan sebelum operan, itu akan mengembalikan nilai yang dikurangi. Ketika ditempatkan setelah operan, itu akan mengembalikan nilai asli dan kemudian mengurangi operan.
+
+// lessons 7.2
+var computers = 10;
+
+//your code goes here
+var monitors = 2;
+var monitors = computers * monitors;
+console.log(monitors);
